@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Movies - MovieWeb App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{{ user }}'s Favorite Movies</h1>
+    <div class="item">
+        {% for movie in movies %}
+        <ul class="no-bullets">
+            <li>{{ movie['title'] }}</li>
+            <div class="post-controls">
+                <!-- Update button -->
+                <form action="/update_movie/{{ user_id }}/update_movie/{{ movie_id }}" method="get">
+                    <button class="update-button" type="submit">Update</button>
+                </form>
+                <!-- Delete button -->
+                <form action="/delete_movie/{{ user_id }}/delete_movie/{{ movie_id }}" method="post">
+                    <button class="delete-button" type="submit">Delete</button>
+                </form>
+            </div>
+        </ul>
+        {% endfor %}
+    </div>
+</body>
+</html>
+

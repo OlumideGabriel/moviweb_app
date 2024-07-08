@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users - MovieWeb App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Users</h1>
+<ul class="no-bullets">
+    {% for user in users %}
+    <a href="{{ url_for('user_movies', user_id=user['id']) }}" class="nav-list no-buttons">
+        <li> {{ user['name'] }} </li></a>
+    {% endfor %}
+</ul>
+</body>
+</html>
