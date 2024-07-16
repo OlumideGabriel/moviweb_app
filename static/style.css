@@ -76,3 +76,65 @@ button:hover {
 .delete-button:hover {
     background-color: #c82333;
 }
+
+
+
+/* Basic form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form input,
+form textarea {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+form input.error,
+form textarea.error {
+    border-color: red;
+    background-color: #ffe6e6;
+}
+
+
+/* Optional: Add some styling for valid inputs */
+form input.valid,
+form textarea.valid {
+    border-color: green;
+    background-color: #e6ffe6;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Styling the submit button */
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+    padding: 10px;
+}

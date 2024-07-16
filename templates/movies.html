@@ -7,17 +7,25 @@
 </head>
 <body>
     <h1>{{ user }}'s Favorite Movies</h1>
+
+    <a href="/users/{{ user_id }}/add_movie"> Add movie </a>
+
     <div class="item">
         {% for movie in movies %}
         <ul class="no-bullets">
             <li>{{ movie['title'] }}</li>
+            <li>{{ movie['director'] }}</li>
+            <li>{{ movie['rating'] }}</li>
+            <li>{{ movie['year'] }}</li>
             <div class="post-controls">
                 <!-- Update button -->
-                <form action="/update_movie/{{ user_id }}/update_movie/{{ movie_id }}" method="get">
+                <form action="/users/{{ user_id }}/update_movie/{{ movie['id'] }}" method="get">
+                    <input type="hidden" name="movie_id" value="{{ movie['id'] }}">
                     <button class="update-button" type="submit">Update</button>
                 </form>
                 <!-- Delete button -->
-                <form action="/delete_movie/{{ user_id }}/delete_movie/{{ movie_id }}" method="post">
+                <form action="/users/{{ user_id }}/delete_movie/{{ movie['id'] }}" method="post">
+                    <input type="hidden" name="movie_id" value="{{ movie['id'] }}">
                     <button class="delete-button" type="submit">Delete</button>
                 </form>
             </div>

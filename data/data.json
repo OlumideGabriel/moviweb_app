@@ -15,6 +15,27 @@
                 "director": "Nolan",
                 "year": 2017,
                 "rating": 9.8
+            },
+            {
+                "id": 90,
+                "title": "Dunes",
+                "director": "Nolan",
+                "year": 2017,
+                "rating": 9.8
+            },
+            {
+                "id": "2c33edd2-9e48-4c68-ab30-ae498a0bb4d8",
+                "title": "fg",
+                "director": "geg",
+                "year": "efeg",
+                "rating": "geg"
+            },
+            {
+                "id": "2fb391ad-a2ef-4d4c-a770-fdf4e6b2c5ce",
+                "title": "gkfe",
+                "director": "vdgvkgvjkgj",
+                "year": "v",
+                "rating": "vdvd"
             }
         ]
     },
@@ -25,15 +46,77 @@
                 "id": 1,
                 "title": "Spiderman",
                 "director": "Christopher Nolan",
-                "year": 2010,
-                "rating": 8.8
+                "year": "2010",
+                "rating": "8.8"
             },
             {
                 "id": 2,
                 "title": "Alakada",
-                "director": "Christopher Nolan",
-                "year": 2008,
-                "rating": 9.0
+                "director": "Christopher",
+                "year": "2008",
+                "rating": "1"
+            },
+            {
+                "id": "4fe2e2a8-7dc5-450a-90b8-dc440bdf50b6",
+                "title": "f",
+                "director": "sd",
+                "year": "fs",
+                "rating": "fs"
+            },
+            {
+                "id": "1f0b9176-436e-4c59-8d4d-70d423e29c41",
+                "title": "eve",
+                "director": "wev",
+                "year": "sdve",
+                "rating": "efe"
+            }
+        ]
+    },
+    "3": {
+        "name": "Olu",
+        "movies": []
+    },
+    "4": {
+        "name": "Alakada",
+        "movies": []
+    },
+    "5": {
+        "name": "JOjo",
+        "movies": []
+    },
+    "6": {
+        "name": "uhfh",
+        "movies": []
+    },
+    "7": {
+        "name": "Olumide",
+        "movies": [
+            {
+                "id": "044ad268-1b09-4037-85f0-57b781d5838d",
+                "title": "Game of Thrones",
+                "director": "J.R.R Martin",
+                "year": "2010",
+                "rating": "9.5"
+            }
+        ]
+    },
+    "8": {
+        "name": "Star Trek",
+        "movies": []
+    },
+    "9": {
+        "name": "Gogog",
+        "movies": []
+    },
+    "10": {
+        "name": "Ben",
+        "movies": [
+            {
+                "id": "d5b959f7-3484-4778-9b04-96c967edc558",
+                "title": "American Gangster",
+                "director": "Ridley Scott",
+                "year": "2007",
+                "rating": "7.8"
             }
         ]
     }
