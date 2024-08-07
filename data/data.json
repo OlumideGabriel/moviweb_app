@@ -3,121 +3,201 @@
         "name": "Alice",
         "movies": [
             {
-                "id": 1,
-                "title": "Inception",
-                "director": "Christopher Nolan",
-                "year": 2010,
-                "rating": 8.8
+                "id": "cee3a745-1e86-4e47-b44d-e6767c0d2a83",
+                "title": "Star Wars: Episode IV - A New Hope",
+                "year": "1977",
+                "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+                "rating": "8.6",
+                "director": "George Lucas"
             },
             {
-                "id": 78,
+                "id": "61c3bd4c-bd90-441f-b4dd-676ca2e13a26",
+                "title": "Titanic",
+                "year": "1997",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+                "rating": "7.9",
+                "director": "James Cameron"
+            },
+            {
+                "id": "e2351da7-aec4-4b23-8a18-3a6e8323b025",
                 "title": "Dune",
-                "director": "Nolan",
-                "year": 2017,
-                "rating": 9.8
+                "year": "1984",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYTAzYzNlMDMtMGRjYS00M2UxLTk0MmEtYmE4YWZiYmEwOTIwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+                "rating": "6.3",
+                "director": "David Lynch"
             },
             {
-                "id": 90,
-                "title": "Dunes",
-                "director": "Nolan",
-                "year": 2017,
-                "rating": 9.8
+                "id": "29a03daf-8432-4652-a26d-5e2b62dc424a",
+                "title": "Star Trek",
+                "year": "2009",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg",
+                "rating": "7.9",
+                "director": "J.J. Abrams"
             },
             {
-                "id": "2c33edd2-9e48-4c68-ab30-ae498a0bb4d8",
-                "title": "fg",
-                "director": "geg",
-                "year": "efeg",
-                "rating": "geg"
-            },
-            {
-                "id": "2fb391ad-a2ef-4d4c-a770-fdf4e6b2c5ce",
-                "title": "gkfe",
-                "director": "vdgvkgvjkgj",
-                "year": "v",
-                "rating": "vdvd"
+                "id": "e0fa6dc4-3501-486d-a7ce-6a081dbbb332",
+                "title": "Game of Thrones",
+                "year": "2011\u20132019",
+                "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+                "rating": "9.2",
+                "director": "N/A"
             }
         ]
-    },
-    "2": {
-        "name": "Bob",
-        "movies": [
-            {
-                "id": 1,
-                "title": "Spiderman",
-                "director": "Christopher Nolan",
-                "year": "2010",
-                "rating": "8.8"
-            },
-            {
-                "id": 2,
-                "title": "Alakada",
-                "director": "Christopher",
-                "year": "2008",
-                "rating": "1"
-            },
-            {
-                "id": "4fe2e2a8-7dc5-450a-90b8-dc440bdf50b6",
-                "title": "f",
-                "director": "sd",
-                "year": "fs",
-                "rating": "fs"
-            },
-            {
-                "id": "1f0b9176-436e-4c59-8d4d-70d423e29c41",
-                "title": "eve",
-                "director": "wev",
-                "year": "sdve",
-                "rating": "efe"
-            }
-        ]
-    },
-    "3": {
-        "name": "Olu",
-        "movies": []
-    },
-    "4": {
-        "name": "Alakada",
-        "movies": []
-    },
-    "5": {
-        "name": "JOjo",
-        "movies": []
-    },
-    "6": {
-        "name": "uhfh",
-        "movies": []
     },
     "7": {
         "name": "Olumide",
         "movies": [
             {
-                "id": "044ad268-1b09-4037-85f0-57b781d5838d",
+                "id": "55cb1d76-2d6c-4461-8c7d-0253cabf1b66",
+                "title": "Ozark",
+                "year": 2017,
+                "poster": "https://m.media-amazon.com/images/M/MV5BZDUxMWNlMTUtYTljZS00MTE0LTlkYjktOTU1ODZjYzBhMTk0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+                "rating": 9.0,
+                "director": "Ofornedum"
+            },
+            {
+                "id": "319731f2-c75f-4b28-bc9a-e34565e2cb07",
+                "title": "Pulp Fiction",
+                "year": 1994,
+                "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "rating": 10.0,
+                "director": "Quentin Tarantino"
+            },
+            {
+                "id": "ce549024-a46d-46d1-840b-3cf50497fb55",
                 "title": "Game of Thrones",
-                "director": "J.R.R Martin",
-                "year": "2010",
-                "rating": "9.5"
+                "year": "2011\u20132019",
+                "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+                "rating": "9.2",
+                "director": "Mark Mylod, Alex Graves"
+            },
+            {
+                "id": "e4b021ac-23d8-410f-b293-921344067360",
+                "title": "Star Wars: Episode IV - A New Hope",
+                "year": "1977",
+                "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+                "rating": "8.6",
+                "director": "George Lucas"
             }
         ]
     },
-    "8": {
-        "name": "Star Trek",
-        "movies": []
-    },
-    "9": {
-        "name": "Gogog",
-        "movies": []
-    },
     "10": {
+        "name": "Abiola",
+        "movies": [
+            {
+                "id": "2fadc621-4dc2-4e59-9cbf-08219d3cd210",
+                "title": "Acolyte",
+                "year": 2019,
+                "poster": "/static/uploads/images/default_image.png",
+                "rating": 8.0,
+                "director": "Andrew Dean"
+            },
+            {
+                "id": "1701c64e-19fb-43ba-a852-095af8b46c84",
+                "title": "Stone",
+                "year": 2010,
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTgxOTk4MDIyOF5BMl5BanBnXkFtZTcwMzI3Nzc3Mw@@._V1_SX300.jpg",
+                "rating": 5.8,
+                "director": "John Curran"
+            },
+            {
+                "id": "d08f3037-d68b-4c6d-a4d9-b8fa6f4b7e4c",
+                "title": "Hotel",
+                "year": 2019,
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTc3OTYzMjU2N15BMl5BanBnXkFtZTgwNDU0MzUxMDE@._V1_SX300.jpg",
+                "rating": 6.07,
+                "director": "Lisa Langseth"
+            },
+            {
+                "id": "7d3c15cb-8736-488f-b745-1e17f72de0df",
+                "title": "Deadpool",
+                "year": 2013,
+                "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+                "rating": 2.0,
+                "director": "Tim Miller"
+            },
+            {
+                "id": "3766d2fd-2dcc-49fc-b45b-c230000a7584",
+                "title": "Heart of Stone",
+                "year": "2023",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTJhYjI1N2ItM2E4MC00ZmYzLTk2YzYtNTE5YTM1MDU0NjRiXkEyXkFqcGdeQXVyMTMxNjYyMTgw._V1_SX300.jpg",
+                "rating": "10",
+                "director": "Tom Harper"
+            }
+        ]
+    },
+    "11": {
+        "name": "Roland",
+        "movies": [
+            {
+                "id": "2c961eea-dc00-47dd-84eb-998f1e2edb5d",
+                "title": "Wolverine",
+                "year": 2011,
+                "poster": "https://m.media-amazon.com/images/M/MV5BNjRkYzAxMzMtMGMyMy00OGY3LWEyYzItNjFiZTY2YzNlZjc0XkEyXkFqcGdeQXVyMTI1MzYzODMy._V1_SX300.jpg",
+                "rating": 9.0,
+                "director": "N/A"
+            },
+            {
+                "id": "2087a025-4771-4652-a7d5-84464637ce02",
+                "title": "House of Cards",
+                "year": 2013,
+                "poster": "https://m.media-amazon.com/images/M/MV5BNmM4ODU1MzItODYyYi00Y2U0LWFjZjItYTRhZWIwOGMyZTRhXkEyXkFqcGdeQXVyNjc2NTQ4Nzk@._V1_SX300.jpg",
+                "rating": 8.6,
+                "director": "N/A"
+            },
+            {
+                "id": "bfc30fb3-6ad2-466d-92fa-4848047049b8",
+                "title": "Rick and Morty",
+                "year": 2013,
+                "poster": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg",
+                "rating": 7.0,
+                "director": "N/A"
+            },
+            {
+                "id": "129c35ae-be9c-4073-b0b6-4f9fa108b08a",
+                "title": "Spartacus",
+                "year": "2010",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZWQ4MjA2YzEtOTQzYi00NWQ1LWI0ZDEtN2VkZjhmYTc3MzU0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg",
+                "rating": "8.5",
+                "director": "N/A"
+            }
+        ]
+    },
+    "12": {
+        "name": "Odoley",
+        "movies": []
+    },
+    "13": {
         "name": "Ben",
         "movies": [
             {
-                "id": "d5b959f7-3484-4778-9b04-96c967edc558",
-                "title": "American Gangster",
-                "director": "Ridley Scott",
-                "year": "2007",
-                "rating": "7.8"
+                "id": "762e0b28-4723-47ea-8370-16ac14cf69ca",
+                "title": "Need for Speed",
+                "year": "2014",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTQ3ODY4NzYzOF5BMl5BanBnXkFtZTgwNjI3OTE4MDE@._V1_SX300.jpg",
+                "rating": "6.4",
+                "director": "Scott Waugh"
+            },
+            {
+                "id": "9352d3ef-6a07-4db6-9d82-eda4171b9d0c",
+                "title": "Shrek",
+                "year": 2001,
+                "poster": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "rating": 5.8,
+                "director": "Andrew Adamson, Vicky Jenson"
             }
         ]
+    },
+    "14": {
+        "name": "Beny",
+        "movies": []
+    },
+    "15": {
+        "name": "Benty",
+        "movies": []
+    },
+    "16": {
+        "name": "Olu",
+        "movies": []
     }
 }

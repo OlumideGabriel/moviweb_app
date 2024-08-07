@@ -1,140 +1,149 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+.body {
+    background-color: #F4ECF7;
 }
 
-h1 {
-    color: #004080;
+.navbar {
+    background-color: #4A235A;
+}
+.error {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4ECF7;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.error .container {
+    text-align: center;
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+.error button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.error button:hover {
+    background-color: #0056b3;
+}
+.error h1{
+    color: #d9534f;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.error p {
+    font-size: 1.2rem;
     margin-bottom: 30px;
-    font-size: 2.5em;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.form-container h1 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.form-control {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #A569BD;
+    border-radius: .25rem;
+}
+.btn-submit {
+    min-width: 250px;
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    border-radius: .25rem;
+}
+.error-message {
+    margin-top: 1rem;
+    color: red;
+    font-size: .9rem;
     text-align: center;
 }
 
-.item {
-    background-color: #ffffff;
-    border: 1px solid #d1e7ff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 64, 128, 0.1);
-    padding: 20px;
-    width: 100%;
-    max-width: 900px;
-}
-
-ul.no-bullets {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #004080;
-}
-
-.post-controls {
+.hero {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
 }
 
-form {
-    margin: 0 5px;
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
 }
+.card .profile {
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
 
-button {
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
+}
+/*.card-body {
+    background-color: #E8DAEF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #D2B4DE;
     border-radius: 5px;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-size: 0.9em;
+}*/
+.card-body:hover {
+    border-color: #A569BD;
+
 }
 
-button:hover {
-    background-color: #0056b3;
+.movie .card {
+    max-width: 18rem; /* Smaller card width */
+    margin: 0 auto; /* Center card horizontally */
 }
-
-.update-button {
-    background-color: #28a745;
+.movie .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
-
-.update-button:hover {
-    background-color: #218838;
+.card-text {
+    font-size: 0.9rem;
 }
-
-.delete-button {
-    background-color: #dc3545;
+.card-footer {
+    display: flex;
+    justify-content: space-between; /* Align buttons to opposite sides */
 }
-
-.delete-button:hover {
-    background-color: #c82333;
-}
-
-
-
-/* Basic form styles */
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-form input,
-form textarea {
-    width: 95%;
-    padding: 10px 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 16px;
-}
-
-form input.error,
-form textarea.error {
-    border-color: red;
-    background-color: #ffe6e6;
+.btn {
+    font-size: 0.8rem; /* Smaller button text */
 }
 
 
-/* Optional: Add some styling for valid inputs */
-form input.valid,
-form textarea.valid {
-    border-color: green;
-    background-color: #e6ffe6;
-}
 
-form .form-group {
-    margin-bottom: 15px;
-}
-
-/* Styling the submit button */
-form button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-form button[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-.error-message {
-    color: red;
-    font-size: 14px;
-    margin: 5px 0 15px 0;
-    padding: 10px;
-}
