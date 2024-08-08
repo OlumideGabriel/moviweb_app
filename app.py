@@ -34,8 +34,11 @@ def manage_users():
 def user_movies(user_id):
     user = data_manager.get_user_name(user_id)
     movies = data_manager.get_user_movies(user_id)
+    movie_count = str(len(movies))
+    plural = '' if len(movies) == 1 else 's'
 
-    return render_template('movies.html', movies=movies, user=user, user_id=user_id)
+    return render_template('movies.html', movies=movies, user=user, user_id=user_id, movie_count=movie_count,
+                           plural=plural)
 
 
 @app.route('/add_user', methods=['GET', 'POST'])
@@ -76,6 +79,7 @@ def add_movie(user_id):
     if request.method == 'POST':
         movie_title = request.form['title']
         data_manager.add_user_movie(user_id, movie_title)
+
         return redirect(url_for('user_movies', user_id=user_id))
 
     return render_template('add_movie.html', user_id=user_id)

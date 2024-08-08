@@ -160,12 +160,277 @@
                 "poster": "https://m.media-amazon.com/images/M/MV5BZWQ4MjA2YzEtOTQzYi00NWQ1LWI0ZDEtN2VkZjhmYTc3MzU0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg",
                 "rating": "8.5",
                 "director": "N/A"
+            },
+            {
+                "id": "e17cc01b-1551-4b6c-a54a-a92bd1a6aa1a",
+                "title": "Obsession",
+                "year": "1976",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjZiNDJkZWMtMmIzNi00OGNlLWFhZDEtZDEwOTUwOWI2OTI3XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+                "rating": "6.7",
+                "director": "Brian De Palma"
             }
         ]
     },
     "12": {
         "name": "Odoley",
-        "movies": []
+        "movies": [
+            {
+                "id": "8a4be692-6885-4684-8d15-2b16dc787a01",
+                "title": "The Meg",
+                "year": "2018",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTAxMGRmODYtM2NkYS00ZGRlLWE1MWItYjI1MzIwNjQwN2RiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+                "rating": "5.7",
+                "director": "Jon Turteltaub"
+            },
+            {
+                "id": "4a5a928d-0458-49b3-805f-8c1cfdbeb9c5",
+                "title": "THE MEG 2: THE TRENCH (2023) Trailer Reaction: FLIX FIX",
+                "year": "2023",
+                "poster": "/static/uploads/images/default_image.png",
+                "rating": "N/A",
+                "director": "N/A"
+            },
+            {
+                "id": "708d6c2b-1147-45be-a1f6-7a7a156fbf0a",
+                "title": "Deep Blue Sea",
+                "year": "1999",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZWM0NjVkOGYtMjk5Mi00NGVmLWE3NDMtMDQ3ZjdjMDcwYzdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+                "rating": "5.9",
+                "director": "Renny Harlin"
+            },
+            {
+                "id": "e27d23fc-0ebc-4f76-860e-b91454ccea78",
+                "title": "Mark Zuckerberg: Inside Facebook",
+                "year": "2011",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNDczMGY3NzMtMmNhZS00MDg5LWI4MTUtNmY4YzkxMTdiMmQzXkEyXkFqcGdeQXVyNzU5NTc5NTE@._V1_SX300.jpg",
+                "rating": "5.9",
+                "director": "Charles Miller"
+            },
+            {
+                "id": "67b425e7-3106-4d31-a58a-2686b3d17374",
+                "title": "Under Paris",
+                "year": "2024",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMDM5ODBiN2ItOTk4Yi00NzgyLWE2YTktYzhjYTc2ODE4ZTE4XkEyXkFqcGc@._V1_SX300.jpg",
+                "rating": "5.2",
+                "director": "Xavier Gens"
+            },
+            {
+                "id": "0b51b71e-a50a-46a8-b526-69ff50c558f4",
+                "title": "The Beast",
+                "year": "1975",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjkzODE4MjMzM15BMl5BanBnXkFtZTgwMDQ1MzQ1MzE@._V1_SX300.jpg",
+                "rating": "5.7",
+                "director": "Walerian Borowczyk"
+            },
+            {
+                "id": "da0cf7f4-e20c-4ee8-b738-6f93ca6afca9",
+                "title": "Anaconda",
+                "year": "1997",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYzgzMDM1MTMtMGNmYS00ZjNlLWI0YTMtNWIzZTEyMDU4OTQyXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+                "rating": "4.9",
+                "director": "Luis Llosa"
+            },
+            {
+                "id": "1b443c8e-18f0-4cde-aee8-34e7ff2f77dc",
+                "title": "Cocaine Bear",
+                "year": "2023",
+                "poster": "https://m.media-amazon.com/images/M/MV5BODAwZDQ5ZjEtZDI1My00MTFiLTg0ZjUtOGE2YTBkOTdjODFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+                "rating": "5.9",
+                "director": "Elizabeth Banks"
+            },
+            {
+                "id": "1b21c052-6e5c-4abb-a49d-674dd6945338",
+                "title": "Nazis at the Center of the Earth",
+                "year": "2012",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTk1NjU1OTI2MF5BMl5BanBnXkFtZTcwMDE5MTYzNw@@._V1_SX300.jpg",
+                "rating": "3.1",
+                "director": "Joseph J. Lawson"
+            },
+            {
+                "id": "5d03e4e9-313d-489b-989c-84886314a4e8",
+                "title": "3 Body Problem",
+                "year": "2024",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjNiMDI5YjItNmU0Yy00NmYxLThjYmUtZDc5ODY2ZDI2NzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+                "rating": "7.5",
+                "director": "N/A"
+            },
+            {
+                "id": "1ba409e0-772f-43b3-b5b1-2eea0b472d75",
+                "title": "Rubber",
+                "year": "2010",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZmVkZDUxYjgtNTI0OC00M2E1LWE2ZmQtZGIxMmYxODJjYTZhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+                "rating": "5.7",
+                "director": "Quentin Dupieux"
+            },
+            {
+                "id": "1f9128c2-1865-4f60-84f5-3e2d58d3c8b0",
+                "title": "Midnight Gospel",
+                "year": "2000",
+                "poster": "/static/uploads/images/default_image.png",
+                "rating": "N/A",
+                "director": "Melany Kahn"
+            },
+            {
+                "id": "aa9518d3-b66e-4fde-895e-cc4dbdc1b2dc",
+                "title": "Super Troopers",
+                "year": "2001",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYzAyOTZjZDItZjNiYy00YTA3LWEyYWMtZTA0NmUzYjZhNjg0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "rating": "7.0",
+                "director": "Jay Chandrasekhar"
+            },
+            {
+                "id": "256925b7-a6d4-4e9f-b795-a6c1e8164a19",
+                "title": "The Inglorious Bastards",
+                "year": "1978",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYzRmZmJiODktMTVlMC00YzQ4LTkyYmMtYTAwODdmOTFlODNmL2ltYWdlXkEyXkFqcGdeQXVyMTYxNjkxOQ@@._V1_SX300.jpg",
+                "rating": "6.5",
+                "director": "Enzo G. Castellari"
+            },
+            {
+                "id": "d1b5838a-b451-41ae-ae1c-70f7f26fc5a4",
+                "title": "The Shawshank Redemption",
+                "year": "1994",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+                "rating": "9.3",
+                "director": "Frank Darabont"
+            },
+            {
+                "id": "9da44e4c-7fe5-41a2-856c-541ef5326b84",
+                "title": "Better Call Saul",
+                "year": "2015",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZDA4YmE0OTYtMmRmNS00Mzk2LTlhM2MtNjk4NzBjZGE1MmIyXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg",
+                "rating": "9.0",
+                "director": "N/A"
+            },
+            {
+                "id": "03f9c786-c9c8-4a4e-8b15-29da56c5e9a6",
+                "title": "The Godfather",
+                "year": "1972",
+                "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "rating": "9.2",
+                "director": "Francis Ford Coppola"
+            },
+            {
+                "id": "2e2508ae-dced-4da9-9b28-b80c9ac488c8",
+                "title": "Toy Story",
+                "year": "1995",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
+                "rating": "8.3",
+                "director": "John Lasseter"
+            },
+            {
+                "id": "27781037-95d2-4677-9cca-9364cafe271d",
+                "title": "The Lion King",
+                "year": "1994",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SX300.jpg",
+                "rating": "8.5",
+                "director": "Roger Allers, Rob Minkoff"
+            },
+            {
+                "id": "0049e708-af3a-40a0-846e-23a9c6fb3ea2",
+                "title": "The Prince of Egypt",
+                "year": "1998",
+                "poster": "https://m.media-amazon.com/images/M/MV5BOWNjMjgyNmMtNWMzZC00YjI4LWI1NmUtMTY0ZTA0ZDQ4Y2EwXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
+                "rating": "7.2",
+                "director": "Brenda Chapman, Steve Hickner, Simon Wells"
+            },
+            {
+                "id": "8860100d-b9b2-4bb7-a92d-7b9f6355db53",
+                "title": "The Dark Knight",
+                "year": "2008",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+                "rating": "9.0",
+                "director": "Christopher Nolan"
+            },
+            {
+                "id": "96d698ce-7192-4c2b-a8ee-422b21b64ab6",
+                "title": "The Lord of the Rings: The Fellowship of the Ring",
+                "year": "2001",
+                "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+                "rating": "8.9",
+                "director": "Peter Jackson"
+            },
+            {
+                "id": "e131f45f-955b-4eee-b680-1dae8e1ccc84",
+                "title": "Pulp Fiction",
+                "year": "1994",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "rating": "8.9",
+                "director": "Quentin Tarantino"
+            },
+            {
+                "id": "0fb670d1-d84a-49be-9293-5dd7de2bd855",
+                "title": "Inception",
+                "year": "2010",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+                "rating": "8.8",
+                "director": "Christopher Nolan"
+            },
+            {
+                "id": "51a41abf-41f4-4d6d-a0b8-d5d6503911c8",
+                "title": "The Count of Monte Cristo",
+                "year": "2002",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMDM0ZWRjZDgtZWI0MS00ZTIzLTg4MWYtZjU5MDEyMDU0ODBjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "rating": "7.7",
+                "director": "Kevin Reynolds"
+            },
+            {
+                "id": "74f69bc7-5bd3-47ee-ae6f-303524384e3d",
+                "title": "Jurassic Park",
+                "year": "1993",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
+                "rating": "8.2",
+                "director": "Steven Spielberg"
+            },
+            {
+                "id": "ada30f45-644d-4d98-b8c2-2a935ccf9306",
+                "title": "Ghost Rider",
+                "year": "2007",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMzIyNDE5ODI1OV5BMl5BanBnXkFtZTcwNTIyNDE0MQ@@._V1_SX300.jpg",
+                "rating": "5.3",
+                "director": "Mark Steven Johnson"
+            },
+            {
+                "id": "e1612b14-106f-497c-8c04-2221d96b4ca3",
+                "title": "Sand Sharks",
+                "year": "2012",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZDUwNzkxZjItN2YwNy00OTIyLTkxNDktZjg0NGExYjZmMjU5XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
+                "rating": "2.7",
+                "director": "Mark Atkins"
+            },
+            {
+                "id": "72cc4305-815b-40c4-9e80-cdc91ad9c636",
+                "title": "Deep Blue Sea 2",
+                "year": "2018",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZDMzZDMwMTgtNjA1Yi00NWJkLWIzMDctNjEwY2EyZDM1ZDMzXkEyXkFqcGdeQXVyNjg0NzkwOTk@._V1_SX300.jpg",
+                "rating": "3.4",
+                "director": "Darin Scott"
+            },
+            {
+                "id": "eda17695-5d72-4a7b-8cdc-e08516e62ea2",
+                "title": "Ice Spiders",
+                "year": "2007",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjI1MzE4Njg1Nl5BMl5BanBnXkFtZTgwODkwODkwMzE@._V1_SX300.jpg",
+                "rating": "3.2",
+                "director": "Tibor Tak\u00e1cs"
+            },
+            {
+                "id": "f6badf5d-1bdd-48bb-bbc6-639fbcb5d163",
+                "title": "The Curse of the Komodo",
+                "year": "2004",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNTIyNjZmODItMTU3NS00NjI3LWFhOWQtMGU5ZmVhYWZmNTAxXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg",
+                "rating": "2.9",
+                "director": "Jim Wynorski"
+            },
+            {
+                "id": "95446432-2a94-4a12-886d-08f5b4addd7d",
+                "title": "Lavalantula",
+                "year": "2015",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMTY5OTEzNV5BMl5BanBnXkFtZTgwNzgwODM2NTE@._V1_SX300.jpg",
+                "rating": "4.6",
+                "director": "Mike Mendez"
+            }
+        ]
     },
     "13": {
         "name": "Ben",
@@ -179,25 +444,94 @@
                 "director": "Scott Waugh"
             },
             {
-                "id": "9352d3ef-6a07-4db6-9d82-eda4171b9d0c",
-                "title": "Shrek",
-                "year": 2001,
-                "poster": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-                "rating": 5.8,
-                "director": "Andrew Adamson, Vicky Jenson"
+                "id": "2853c232-7512-42cd-8785-b316245ca965",
+                "title": "Camel Spiders",
+                "year": "2011",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZThmZWU3NDYtOGRhYS00OWE1LWI0NzAtZWU1NzdiYjk2ZjZjXkEyXkFqcGdeQXVyNTYyNDI4MzY@._V1_SX300.jpg",
+                "rating": "2.5",
+                "director": "Jim Wynorski"
+            },
+            {
+                "id": "3a047763-b385-42ea-a111-f699174319e7",
+                "title": "Disaster Movie",
+                "year": "2008",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTIzMDQyNDgwNl5BMl5BanBnXkFtZTcwMDA0MTc3MQ@@._V1_SX300.jpg",
+                "rating": "1.9",
+                "director": "Jason Friedberg, Aaron Seltzer"
+            },
+            {
+                "id": "ac52cce1-57d0-4c1b-9f27-98357cc3fc99",
+                "title": "Sharktopus vs. Whalewolf",
+                "year": "2015",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTg2OGU5ZTMtOWU3MS00ZDdmLWFmMjEtZjYwZWQyZWVlZmExXkEyXkFqcGdeQXVyNjM2NTM3ODA@._V1_SX300.jpg",
+                "rating": "3.2",
+                "director": "Kevin O'Neill"
+            },
+            {
+                "id": "4b2ae117-fcbc-4978-b96c-090265b55de6",
+                "title": "Food Fight",
+                "year": "2008",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjE1MzkwNzgwOV5BMl5BanBnXkFtZTcwOTcyMTU3MQ@@._V1_SX300.jpg",
+                "rating": "7.0",
+                "director": "Christopher Taylor"
+            },
+            {
+                "id": "cf18dd0c-7765-43a9-a998-235447669724",
+                "title": "Saving Christmas",
+                "year": "2017",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYjdiMjkyYTUtYjRhOC00ZTY0LTgxNWUtODNiMGM0MzlhNDQ2XkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_SX300.jpg",
+                "rating": "3.4",
+                "director": "Tom DeNucci"
+            },
+            {
+                "id": "f19ae182-422f-46af-8c7a-757ff911ba10",
+                "title": "Daniel the Wizard",
+                "year": "2004",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNTY0NGNhMmMtZDhmMi00YzM1LTgyZGMtOGMzNGRkYTQ1Njc4XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_SX300.jpg",
+                "rating": "1.2",
+                "director": "Ulli Lommel"
             }
         ]
-    },
-    "14": {
-        "name": "Beny",
-        "movies": []
-    },
-    "15": {
-        "name": "Benty",
-        "movies": []
     },
     "16": {
         "name": "Olu",
         "movies": []
+    },
+    "17": {
+        "name": "Kudus4",
+        "movies": [
+            {
+                "id": "ac3d41af-9b76-4d9e-bd4b-222fcc5f8c50",
+                "title": "Tom and Jerry",
+                "year": "1965",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjA3NzUwNjQwOF5BMl5BanBnXkFtZTcwMTcwNTYyMQ@@._V1_SX300.jpg",
+                "rating": "8.7",
+                "director": "N/A"
+            },
+            {
+                "id": "13999f48-6166-4a8b-a6a4-2d5ec4083d09",
+                "title": "Power Rangers",
+                "year": "2017",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTA5MzU1NDI4NzBeQTJeQWpwZ15BbWU4MDUxMDQ0NDEy._V1_SX300.jpg",
+                "rating": "5.9",
+                "director": "Dean Israelite"
+            },
+            {
+                "id": "216eabe3-ce6c-4ec5-b7f9-e643dbe67018",
+                "title": "Star Trek",
+                "year": "2009",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg",
+                "rating": "7.9",
+                "director": "J.J. Abrams"
+            },
+            {
+                "id": "13cff618-1ae1-47fa-b166-f7779972675a",
+                "title": "Deep Blue Sea",
+                "year": "1999",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZWM0NjVkOGYtMjk5Mi00NGVmLWE3NDMtMDQ3ZjdjMDcwYzdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+                "rating": "5.9",
+                "director": "Renny Harlin"
+            }
+        ]
     }
 }

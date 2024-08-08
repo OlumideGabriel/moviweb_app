@@ -32,7 +32,8 @@
     <!-- Main Content -->
     <main class="container my-5">
         <h1 class="mb-4">{{ user }}'s Favorite Movies</h1>
-        <div class="d-flex justify-content-end mb-3">
+        <div class="d-flex justify-content-between mb-3">
+        <h5 class="grey-text">{{ movie_count }} movie{{ plural }} in total</h5>
         <a href="/users/{{ user_id }}/add_movie" class="btn btn-primary">
             <i class="fas fa-plus"></i> Add Movie
         </a>
