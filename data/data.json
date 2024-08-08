@@ -175,28 +175,12 @@
                 "director": "Jon Turteltaub"
             },
             {
-                "id": "4a5a928d-0458-49b3-805f-8c1cfdbeb9c5",
-                "title": "THE MEG 2: THE TRENCH (2023) Trailer Reaction: FLIX FIX",
-                "year": "2023",
-                "poster": "/static/uploads/images/default_image.png",
-                "rating": "N/A",
-                "director": "N/A"
-            },
-            {
                 "id": "708d6c2b-1147-45be-a1f6-7a7a156fbf0a",
                 "title": "Deep Blue Sea",
                 "year": "1999",
                 "poster": "https://m.media-amazon.com/images/M/MV5BZWM0NjVkOGYtMjk5Mi00NGVmLWE3NDMtMDQ3ZjdjMDcwYzdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
                 "rating": "5.9",
                 "director": "Renny Harlin"
-            },
-            {
-                "id": "e27d23fc-0ebc-4f76-860e-b91454ccea78",
-                "title": "Mark Zuckerberg: Inside Facebook",
-                "year": "2011",
-                "poster": "https://m.media-amazon.com/images/M/MV5BNDczMGY3NzMtMmNhZS00MDg5LWI4MTUtNmY4YzkxMTdiMmQzXkEyXkFqcGdeQXVyNzU5NTc5NTE@._V1_SX300.jpg",
-                "rating": "5.9",
-                "director": "Charles Miller"
             },
             {
                 "id": "67b425e7-3106-4d31-a58a-2686b3d17374",
@@ -391,28 +375,12 @@
                 "director": "Mark Atkins"
             },
             {
-                "id": "72cc4305-815b-40c4-9e80-cdc91ad9c636",
-                "title": "Deep Blue Sea 2",
-                "year": "2018",
-                "poster": "https://m.media-amazon.com/images/M/MV5BZDMzZDMwMTgtNjA1Yi00NWJkLWIzMDctNjEwY2EyZDM1ZDMzXkEyXkFqcGdeQXVyNjg0NzkwOTk@._V1_SX300.jpg",
-                "rating": "3.4",
-                "director": "Darin Scott"
-            },
-            {
                 "id": "eda17695-5d72-4a7b-8cdc-e08516e62ea2",
                 "title": "Ice Spiders",
                 "year": "2007",
                 "poster": "https://m.media-amazon.com/images/M/MV5BMjI1MzE4Njg1Nl5BMl5BanBnXkFtZTgwODkwODkwMzE@._V1_SX300.jpg",
                 "rating": "3.2",
                 "director": "Tibor Tak\u00e1cs"
-            },
-            {
-                "id": "f6badf5d-1bdd-48bb-bbc6-639fbcb5d163",
-                "title": "The Curse of the Komodo",
-                "year": "2004",
-                "poster": "https://m.media-amazon.com/images/M/MV5BNTIyNjZmODItMTU3NS00NjI3LWFhOWQtMGU5ZmVhYWZmNTAxXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg",
-                "rating": "2.9",
-                "director": "Jim Wynorski"
             },
             {
                 "id": "95446432-2a94-4a12-886d-08f5b4addd7d",
@@ -527,7 +495,7 @@
         ]
     },
     "18": {
-        "name": "Sam",
+        "name": "Benny",
         "movies": [
             {
                 "id": "c59b80d0-973e-426a-a7da-c68bdf30dd72",
