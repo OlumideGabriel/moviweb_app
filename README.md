@@ -136,3 +136,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [OMDb API](http://www.omdbapi.com/) for providing movie data.
 - Flask community for excellent documentation and support.
 - Bootstrap for the responsive design framework.
+- FontAwesome for Icons
