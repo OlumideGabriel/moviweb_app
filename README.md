@@ -1,9 +1,3 @@
-Sure, here's a comprehensive README file for your GitHub project, "MovieHub":
-
----
-
-# MovieHub
-
 Welcome to **MovieHub** - a dynamic and interactive web application that allows you to manage users and their favorite movies. Built with Python, Flask, HTML, CSS, JavaScript, and Bootstrap, MovieHub provides a seamless experience for creating, reading, updating, and deleting user and movie information.
 
 ## Table of Contents
@@ -122,21 +116,23 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Screenshots
 
-![Home Page](/static/uploads/screenshots/home.png)
+![Home Page](static/uploads/screenshots/home.png)
 *Home Page*
 
-![User List](screenshots/users.png)
+![User List](static/uploads/screenshots/users.png)
 *User List*
 
-![Movie List](screenshots/movies.png)
+![User Added Successfully](static/uploads/screenshots/success.png)
+*User Added Successfully*
+
+![Movie List](static/uploads/screenshots/movies.png)
 *Movie List*
+
+![Movie Update Error](static/uploads/screenshots/movie-error.png)
+*Movie Update Error*
 
 ## Acknowledgments
 
 - [OMDb API](http://www.omdbapi.com/) for providing movie data.
 - Flask community for excellent documentation and support.
 - Bootstrap for the responsive design framework.
-
----
-
-Feel free to customize this README to better fit your project's details and needs. Adding screenshots will help attract more interest and provide a visual understanding of your application.

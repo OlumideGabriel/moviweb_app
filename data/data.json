@@ -33,14 +33,6 @@
                 "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg",
                 "rating": "7.9",
                 "director": "J.J. Abrams"
-            },
-            {
-                "id": "e0fa6dc4-3501-486d-a7ce-6a081dbbb332",
-                "title": "Game of Thrones",
-                "year": "2011\u20132019",
-                "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
-                "rating": "9.2",
-                "director": "N/A"
             }
         ]
     },
@@ -531,6 +523,27 @@
                 "poster": "https://m.media-amazon.com/images/M/MV5BZWM0NjVkOGYtMjk5Mi00NGVmLWE3NDMtMDQ3ZjdjMDcwYzdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
                 "rating": "5.9",
                 "director": "Renny Harlin"
+            }
+        ]
+    },
+    "18": {
+        "name": "Sam",
+        "movies": [
+            {
+                "id": "c59b80d0-973e-426a-a7da-c68bdf30dd72",
+                "title": "Game of Thrones",
+                "year": 2011,
+                "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+                "rating": 9.0,
+                "director": "N/A"
+            },
+            {
+                "id": "a56a5481-e37e-4796-9cfb-ebb9ad6757c2",
+                "title": "Breaking Bad",
+                "year": "2008",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg",
+                "rating": "9.5",
+                "director": "N/A"
             }
         ]
     }
