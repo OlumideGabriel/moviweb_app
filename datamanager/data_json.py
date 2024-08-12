@@ -177,7 +177,7 @@ class JSONDataManager(DataManagerInterface):
             'username': username,
             'password': password,
             'is_admin': False,
-            'profile': "",
+            'profile': PROFILE_IMAGE,
             'movies': []
         }
         self._save_all_users(users)
