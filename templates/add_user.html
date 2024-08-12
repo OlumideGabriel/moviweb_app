@@ -9,8 +9,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="body">
-
-<nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-md d-flex align-items-center">
             <a class="navbar-brand d-flex align-items-center" href="/">
                 <img src="{{ url_for('static', filename='/uploads/images/splash.png') }}" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
@@ -27,6 +27,7 @@
         </div>
     </nav>
 
+    <!-- Add New User Form -->
     <div class="form-container border p-4">
         {% if message %}
         <div class="alert alert-success" role="alert">
@@ -44,7 +45,7 @@
         <form action="/add_user" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="name" class="form-label">Username:</label>
-                <input type="text" id="name" name="name" class="form-control" required>
+                <input type="text" id="name" name="username" class="form-control" required>
             </div >
             <div class="d-flex justify-content-between">
                 <button type="submit" class="btn btn-primary">Submit</button>

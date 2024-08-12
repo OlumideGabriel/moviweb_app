@@ -138,5 +138,15 @@
     font-size: 0.8rem; /* Smaller button text */
 }
 
+.profile-image-wrapper img {
+    width: 120px; /* Set the size of the circle */
+    height: 120px;
+    border: 3px solid #C8A1E0;
+}
+
+.profile-image {
+    object-fit: cover; /* Ensures the image covers the circle without stretching */
+
+}
 
 

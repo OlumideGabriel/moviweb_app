@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 400 - Bad Request</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body class="error">
+    <div class="container">
+        <h1>Key Error</h1>
+        <p>The Key <strong>{{error}}</strong> either does not exist, or needs to be fixed.</p>
+        <button onclick="window.location.href='/'">Go back to Home page</button>
+    </div>
+</body>
+</html>

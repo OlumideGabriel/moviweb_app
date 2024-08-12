@@ -8,6 +8,10 @@
     <div class="container">
         <h1>Error 404</h1>
         <h2>Page Not Found.</h2>
+        {% if error %}
+        <p>{{ error }}</p>
+        {% endif %}
+
         <div>
             <button onclick="window.location.href='/'">Go back to Home page</button>
         </div>

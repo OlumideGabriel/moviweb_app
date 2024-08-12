@@ -11,40 +11,73 @@
 </head>
 <body class="body">
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-md d-flex align-items-center">
             <a class="navbar-brand d-flex align-items-center" href="/">
-                <img src="{{ url_for('static', filename='/uploads/images/splash.png') }}" alt="Logo"
-                     width="30" height="30" class="d-inline-block align-text-top me-2">MovieHub
+                <img src="{{ url_for('static', filename='/uploads/images/splash.png') }}" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
+                MovieHub
             </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/users">Users</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/users">Users</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end">
+                    {% if current_user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('profile', username=current_user.username) }}">
+                            Hi {{ current_user.username }}</a>
+                    </li>
+                    <li class="nav-item vr d-none d-lg-flex h-100% mx-lg-2 text-white">
+
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                            <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    {% endif %}
+
+                </ul>
+            </div>
         </div>
     </nav>
 
 
 <div class="container-md px-4 text-center overflow-hidden">
     <h1 class="my-4">All Users</h1>
+
     <div class="d-flex justify-content-end mb-3">
+        {% if user['is_admin'] %}
         <a href="/ManageUsers" class="btn btn-secondary">
             <i class="fas fa-gear"></i> Manage
         </a>
+        {% endif %}
     </div>
+
 
 
     <div class="row">
         {% for user in users %}
         <div class="col-lg-3 gy-3 gx-3">
-            <a href="{{ url_for('user_movies', user_id=user['id']) }}" class="text-decoration-none">
+            <a href="{{ url_for('profile', username=user['name']) }}" class="text-decoration-none">
                 <div class="card profile h-100">
                     <div class="card-body">
                         <h5 class="card-title">{{ user['name'] }}</h5>
+                        {% if user['is_admin'] %}
+                          <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill text-bg-dark">
+                            Admin</span>
+                        {% endif %}
                     </div>
                 </div>
             </a>

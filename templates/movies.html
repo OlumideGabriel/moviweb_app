@@ -18,14 +18,37 @@
                 <img src="{{ url_for('static', filename='/uploads/images/splash.png') }}" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
                 MovieHub
             </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/users">Users</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/users">Users</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end">
+                    {% if current_user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('profile', username=current_user.username) }}"> Hi {{ current_user.username }}</a>
+                    </li>
+                    <li class="nav-item vr d-none d-lg-flex h-100% mx-lg-2 text-white">
+
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                            <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    {% endif %}
+
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -34,9 +57,11 @@
         <h1 class="mb-4">{{ user }}'s Favorite Movies</h1>
         <div class="d-flex justify-content-between mb-3">
         <h5 class="grey-text">{{ movie_count }} movie{{ plural }} in total</h5>
-        <a href="/users/{{ user_id }}/add_movie" class="btn btn-primary">
-            <i class="fas fa-plus"></i> Add Movie
-        </a>
+        {% if current_user.id == user_id %}
+            <a href="/users/{{ user_id }}/add_movie" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Add Movie
+            </a>
+        {% endif %}
     </div>
 
         <div class="row g-4">
@@ -50,6 +75,8 @@
                         <p class="card-text"><strong>Rating:</strong> {{ movie['rating'] }}</p>
                         <p class="card-text"><strong>Year:</strong> {{ movie['year'] }}</p>
                     </div>
+
+                    {% if current_user.id == user_id %}
                     <div class="card-footer">
                         <form action="/users/{{ user_id }}/update_movie/{{ movie['id'] }}" method="get">
                             <button class="btn btn-outline-secondary" type="submit">Update</button>
@@ -58,6 +85,7 @@
                             <button class="btn btn-danger" type="submit">Delete</button>
                         </form>
                     </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
