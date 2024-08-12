@@ -3,7 +3,7 @@
         "username": "Tola",
         "password": "1Skywalker?",
         "is_admin": false,
-        "profile": "/static/uploads/profile_images/user_1_smiling_black_girl.jpg",
+        "profile": "/static/uploads/profile_images/user_1_fari.jpg",
         "movies": [
             {
                 "id": "cee3a745-1e86-4e47-b44d-e6767c0d2a83",
@@ -91,7 +91,7 @@
         "username": "Crayon",
         "password": "12341234",
         "is_admin": false,
-        "profile": "/static/uploads/profile_images/user_5_Crayon.jpeg",
+        "profile": "/static/uploads/profile_images/user_5_Olu_headshot.png",
         "movies": [
             {
                 "id": "2232db56-2709-49d5-a71d-da5d2b1c0808",
@@ -107,7 +107,7 @@
         "username": "Koshi",
         "password": "mL$*F)t%0n",
         "is_admin": false,
-        "profile": "/static/uploads/profile_images/user_6_smiling_black_girl.jpg",
+        "profile": "/static/uploads/profile_images/user_6_default_avatar.jpg",
         "movies": [
             {
                 "id": "25afeff4-4c7f-414c-bb82-7f64a2ce45b5",
@@ -130,7 +130,14 @@
         "username": "Groot",
         "password": "zL<1a06@n\\",
         "is_admin": false,
-        "profile": "/static/uploads/profile_images/user_8_Groot.png",
+        "profile": "/static/uploads/profile_images/user_8_default_avatar.jpg",
+        "movies": []
+    },
+    "9": {
+        "username": "Tobe",
+        "password": "12341234",
+        "is_admin": false,
+        "profile": "/static/uploads/profile_images/default_avatar.jpg",
         "movies": []
     }
 }
