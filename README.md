@@ -25,6 +25,13 @@ Welcome to **MovieHub** - a dynamic and interactive web application that allows 
 - **Data Management**: JSON
 - **External API**: OMDb API
 
+## View Live Website
+
+
+   ```Link
+   https://olumidegabriel.pythonanywhere.com/
+   ```
+
 ## Setup
 
 1. **Clone the Repository**
