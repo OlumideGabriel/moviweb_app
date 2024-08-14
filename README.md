@@ -3,11 +3,11 @@ Welcome to **MovieHub** - a dynamic and interactive web application that allows 
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [View Live Website](#view-live-website)
 - [Setup](#setup)
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Screenshots](#screenshots)
 
 ## Features
@@ -116,10 +116,6 @@ We welcome contributions to MovieHub! To contribute:
 5. Create a pull request.
 
 Please ensure your code adheres to our coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Screenshots
 
