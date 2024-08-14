@@ -27,10 +27,7 @@ Welcome to **MovieHub** - a dynamic and interactive web application that allows 
 
 ## View Live Website
 
-
-   ```Link
-   https://olumidegabriel.pythonanywhere.com/
-   ```
+   Copy and paste link in browser `https://olumidegabriel.pythonanywhere.com/`
 
 ## Setup
 
